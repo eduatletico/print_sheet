@@ -72,9 +72,6 @@ class PrintSheetController extends Controller
           'identifier'    => $order
         ];
 
-        // $ps->print_sheet_item()->attach($ps->ps_id, $ins);
-
-        // PrintSheetItem::create($ins);
         $items[] = PrintSheetItem::create($ins);
 
         $order++;
