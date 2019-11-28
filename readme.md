@@ -7,6 +7,7 @@ This assumes that you already configured your database on .env file
 
 ```bash
 cd print_sheet
+composer install
 php artisan migrate
 php artisan db:seed
 php -S localhost:8000 -t public
@@ -15,6 +16,7 @@ or
 
 ```bash
 cd print_sheet
+composer install
 php artisan migrate:fresh --seed
 php -S localhost:8000 -t public
 ```
